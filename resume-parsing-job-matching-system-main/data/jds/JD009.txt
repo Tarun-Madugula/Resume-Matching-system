@@ -1,0 +1,19 @@
+Job ID: JD009
+Role: Full Stack Engineer
+
+Required Skills:
+C#
+.NET
+SQL
+HTML
+CSS
+AngularJS
+Python
+
+Optional Skills:
+PostgreSQL
+Object Oriented Programming
+CI/CD
+
+About Role:
+Develop highly reliable aerospace software solutions.

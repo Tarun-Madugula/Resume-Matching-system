@@ -1,0 +1,21 @@
+Job ID: JD002
+Role: Software Engineer
+
+Required Skills:
+Java
+Spring Boot
+React
+SQL
+Microservices
+Kafka
+REST
+Docker
+Kubernetes
+
+Optional Skills:
+Python
+Azure
+CI/CD
+
+About Role:
+Develop and maintain enterprise applications in banking domain.

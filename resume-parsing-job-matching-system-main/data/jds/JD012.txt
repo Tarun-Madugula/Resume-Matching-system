@@ -1,0 +1,17 @@
+Job ID: JD012
+Role: Software Engineer
+
+Required Skills:
+C++
+Python
+Java
+Git
+Linux
+
+Optional Skills:
+Docker
+AWS
+Jenkins
+
+About Role:
+Develop mission-critical analytics software.

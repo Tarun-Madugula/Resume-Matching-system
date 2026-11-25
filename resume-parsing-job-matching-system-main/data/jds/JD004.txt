@@ -1,0 +1,19 @@
+Job ID: JD004
+Role: Software Engineer
+
+Required Skills:
+Python
+AWS
+Docker
+Kubernetes
+REST
+System Design
+
+Optional Skills:
+TypeScript
+Go
+C++
+Telemetry Systems
+
+About Role:
+Develop systems supporting rocket testing and automation.

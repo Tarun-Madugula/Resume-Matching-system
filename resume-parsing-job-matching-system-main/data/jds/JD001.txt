@@ -1,0 +1,21 @@
+Job ID: JD001
+Role: Scientific Programmer
+
+Required Skills:
+C
+C++
+Python
+Linux
+Unix
+Version Control
+Software Testing
+
+Optional Skills:
+MPI
+OpenMP
+HPC
+Numerical Methods
+Fortran
+
+About Role:
+Develop and test high-performance scientific simulation software.

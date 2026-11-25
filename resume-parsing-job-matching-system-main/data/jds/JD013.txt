@@ -1,0 +1,18 @@
+Job ID: JD013
+Role: Software Engineer
+
+Required Skills:
+Java
+C#
+Python
+REST API
+SQL
+Git
+
+Optional Skills:
+Agile
+SDLC
+Data Processing
+
+About Role:
+Design and manage enterprise application development projects.

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Upload a resume and discover roles that match your skills.">
+    <title>ResumeMatch | Career Insights</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="topbar">
+            <a class="brand" href="/" aria-label="ResumeMatch home">
+                <span class="brand-mark" aria-hidden="true">RM</span>
+                <span class="brand-copy">
+                    <span class="brand-name">ResumeMatch</span>
+                    <span class="brand-caption">CAREER INSIGHTS</span>
+                </span>
+            </a>
+            <div class="system-badge">
+                <span class="system-dot" aria-hidden="true"></span>
+                SEMANTIC VECTOR MATCHING
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <p class="eyebrow"><span aria-hidden="true"></span> RESUME-TO-ROLE MATCHING</p>
+                <h1>Make your next move<br><span>with clarity.</span></h1>
+                <p class="hero-copy">Compare your resume with open roles using local semantic embeddings, with a skill-by-skill view to explain each match.</p>
+            </section>
+
+            <section class="upload-panel" aria-labelledby="upload-title">
+                <div class="panel-heading">
+                    <div class="step-number" aria-hidden="true">01</div>
+                    <div>
+                        <h2 id="upload-title">Start with your resume</h2>
+                        <p>Your PDF is processed in memory and is not stored. The local model downloads on first use.</p>
+                    </div>
+                    <span class="privacy-badge">PDF ONLY <span aria-hidden="true">·</span> UP TO 10 MB</span>
+                </div>
+
+                <form id="resume-form" onsubmit="loadData(event)">
+                    <label class="dropzone" for="resume">
+                        <span class="upload-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 14.5v4A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span class="dropzone-copy">
+                            <span class="dropzone-title">Choose your resume</span>
+                            <span class="dropzone-hint">Select a PDF from your device</span>
+                        </span>
+                        <span class="browse-button">Browse files</span>
+                        <input class="file-input" id="resume" name="resume" type="file" accept=".pdf,application/pdf" required>
+                    </label>
+
+                    <div class="form-actions">
+                        <p class="selected-file" id="file-name">No file selected</p>
+                        <button id="analyze-button" type="submit">
+                            <span class="button-copy">Analyze resume</span>
+                            <span aria-hidden="true">&rarr;</span>
+                        </button>
+                    </div>
+                    <p id="status" class="status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+
+            <section id="result" class="results" aria-live="polite"></section>
+        </main>
+
+        <footer class="footer">
+            <span>Thoughtful matches. Clear next steps.</span>
+            <span>ResumeMatch <span aria-hidden="true">·</span> Career insights</span>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

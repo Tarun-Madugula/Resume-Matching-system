@@ -1,0 +1,19 @@
+Job ID: JD003
+Role: Software Engineer
+
+Required Skills:
+Python
+Java
+C++
+React
+Angular
+DevOps
+
+Optional Skills:
+AI
+Machine Learning
+Cloud
+SaaS
+
+About Role:
+Build scalable software systems and collaborate with engineering teams.

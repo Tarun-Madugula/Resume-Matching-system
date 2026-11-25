@@ -1,0 +1,18 @@
+Job ID: JD006
+Role: Software Engineer
+
+Required Skills:
+C++
+Python
+Machine Learning
+Embedded Systems
+Signal Processing
+
+Optional Skills:
+FPGA
+GPU Programming
+Rust
+Web Services
+
+About Role:
+Develop complex semiconductor software systems.

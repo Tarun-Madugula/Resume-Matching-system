@@ -1,0 +1,23 @@
+{
+  "name": "resume-parsing-job-matching-system",
+  "version": "1.0.0",
+  "description": "Resume Parsing and Semantic Job Matching System built with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js --open-browser",
+    "test": "node --test"
+  },
+  "keywords": [
+    "resume-parsing",
+    "job-matching",
+    "nodejs",
+    "express"
+  ],
+  "author": "Abhay Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "express": "^5.2.1",
+    "pdf-parse": "^1.1.1"
+  }
+}

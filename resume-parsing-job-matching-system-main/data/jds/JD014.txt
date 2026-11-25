@@ -1,0 +1,17 @@
+Job ID: JD014
+Role: Software Engineer
+
+Required Skills:
+TypeScript
+JavaScript
+Node.js
+Docker
+Linux
+
+Optional Skills:
+Kubernetes
+CI/CD
+Python
+
+About Role:
+Develop secure data visualization tools for intelligence systems.

@@ -1,0 +1,17 @@
+Job ID: JD010
+Role: Software Engineer
+
+Required Skills:
+Cloud Services
+DevOps
+Kubernetes
+Jenkins
+Terraform
+
+Optional Skills:
+Node.js
+React
+MySQL
+
+About Role:
+Develop cloud-native enterprise solutions.
